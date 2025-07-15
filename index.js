@@ -103,7 +103,11 @@ function close_cartpage() {
 }
 
 function checkOut() {
-  alert("Thanks for your Purchase");
+  if (!cart.length == 0) {
+    alert("Thanks for your Purchase");
+  } else {
+    alert("No item in cart");
+  }
 }
 
 function calculateSubTotal() {
