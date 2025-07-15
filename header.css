@@ -1,0 +1,65 @@
+/* ........header.......... */
+header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4%;
+  border-bottom: 2px solid #e0e0e0;
+}
+/* .......logo.......... */
+.company-logo {
+  font-family: "DynaPuff", system-ui;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primaryColor);
+}
+/* .........navitems............ */
+.nav-items {
+  width: 400px;
+}
+.nav-items ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-items ul li {
+  letter-spacing: 1.25px;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--primaryColor);
+}
+
+/* ...........actions......... */
+.actions {
+  width: 150px;
+}
+.actions ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.actions ul li {
+  position: relative;
+  list-style: none;
+  transition: color 0.3s ease;
+}
+.actions ul li:hover {
+  cursor: pointer;
+  color: var(--primaryColor);
+}
+.cart_count {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  background-color: var(--primaryColor);
+  color: white;
+  border-radius: 50%;
+  top: -14px;
+  right: -2px;
+}

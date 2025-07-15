@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weuz</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="company-logo">Weuz</div>
+        <div class="nav-items">
+            <ul>
+                <li>All Products</li>
+            </ul>
+        </div>
+        <div class="actions">
+            <ul>
+                <li>
+                    <span class="material-symbols-outlined" id="cart_btn" onclick="open_cartPage()">
+                        shopping_cart
+                    </span>
+                    <sup class="cart_count" onclick="open_cartPage()">0</sup>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class=" main-container">
+        </div>
+    </main>
+
+    <aside>
+        <div class="aside-parentContainer">
+        </div>
+        <div class="aside-calculation">
+            <div class="sub-totals">
+                <p class="sub-total">Sub-Total</p>
+                <p class="sub-total-price"></p>
+            </div>
+            <div class="shpping-chrages">
+                <p class="shpping-chrage">Shipping-Charge</p>
+                <p class="shpping-chrage-price">Rs. 99</p>
+            </div>
+            <div class="totals">
+                <p class="total">Total</p>
+                <p class="total-price"></p>
+            </div>
+        </div>
+
+        <div class="aside-actionBtns">
+            <button onclick="close_cartpage()">Close</button>
+            <button onclick="checkOut()"><a href="index.html">CheckOut</a></button>
+        </div>
+    </aside>
+    <footer>
+        <div class="footer-container">
+            <ul class="company">
+                <li>Company</li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Our Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="">Refund Policy</a></li>
+            </ul>
+            <ul class="contact">
+                <li>Contact No.</li>
+                <li>+977-567811</li>
+                <li>+977-9812345670</li>
+                <li>+977-9807654321</li>
+                <li>dikshnattimsina2074@gmail.com</li>
+            </ul>
+            <ul class="follow">
+                <li>Follow US</li>
+                <li><a href="#"><i class="fa-brands fa-square-facebook"></i> Facebook</a></li>
+                <li><a href="#"><i class="fa-brands fa-square-instagram"> </i> Instagram</a></li>
+                <li><a href="#"><i class="fa-brands fa-square-x-twitter"></i> Twitter</a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i> Linkedln</a></li>
+                <li><a href="#"><i class="fa-brands fa-square-github"></i> Github</a></li>
+            </ul>
+        </div>
+        <p>Github: @dikshant-tx</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
